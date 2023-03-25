@@ -18,3 +18,7 @@ The project implementation is done using  Map Reduce job in pseudo distributed H
 python3 mapper_reducer.py -r hadoop --hadoop-streaming-jar /usr/lib/hadoop-streaming-3.3.1.jar hdfs_input_data_path/input_age_file.txt --output hdfs_output_data_path/map_age_reduce_output/  
 
 python3 mapper_reducer.py -r hadoop --hadoop-streaming-jar /usr/lib/hadoop-streaming-3.3.1.jar hdfs_input_data_path/input_gender_file.txt --output hdfs_output_data_path/map_gender_reduce_output/
+
+
+##
+For the analysis 3 cuntries were chosen arbitrarily with high number of covid cases -- Spain, Germany, and the United States of America
