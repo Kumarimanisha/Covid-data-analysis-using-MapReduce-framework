@@ -8,7 +8,7 @@ The project implementation is done using  Map Reduce job in pseudo distributed H
 
 # steps to run the code:
 
-1> Run python3 main.py
+1> Run python3 main.py \b
 2> Copy cleaned input files to hdfs with below command : 
 /usr/local/hadoop/bin/hdfs dfs -copyFromLocal input_gender_file.txt hdfs_input_data_path/
 /usr/local/hadoop/bin/hdfs dfs -copyFromLocal input_age_file.txt hdfs_input_data_path
