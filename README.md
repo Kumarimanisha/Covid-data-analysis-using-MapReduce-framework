@@ -8,13 +8,13 @@ The project implementation is done using  Map Reduce job in pseudo distributed H
 
 # steps to run the code:
 
-1> Run python3 main.py \b
+1> Run python3 main.py 
+##
 2> Copy cleaned input files to hdfs with below command : 
 /usr/local/hadoop/bin/hdfs dfs -copyFromLocal input_gender_file.txt hdfs_input_data_path/
 /usr/local/hadoop/bin/hdfs dfs -copyFromLocal input_age_file.txt hdfs_input_data_path
-
+##
 3> Run mapper reducer commands with below commands:
-
 python3 mapper_reducer.py -r hadoop --hadoop-streaming-jar /usr/lib/hadoop-streaming-3.3.1.jar hdfs_input_data_path/input_age_file.txt --output hdfs_output_data_path/map_age_reduce_output/  
 
 python3 mapper_reducer.py -r hadoop --hadoop-streaming-jar /usr/lib/hadoop-streaming-3.3.1.jar hdfs_input_data_path/input_gender_file.txt --output hdfs_output_data_path/map_gender_reduce_output/
