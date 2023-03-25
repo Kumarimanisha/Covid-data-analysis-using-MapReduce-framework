@@ -4,7 +4,7 @@ In the project I used Google Health's COVID-19 Open Data Repository to analyze r
 1. Is there any relationship between age structure of the population and COVID-19 infections?
 2. Is there any relationship between gender subgroups and COVID-19 infections?
 
-The project implementation is done using  Map Reduce job in pseudo distributed Hadoop system.
+The project implementation is done using  Map Reduce job in pseudo distributed Hadoop system.For data visualization Tableau was used.
 
 # steps to run the code:
 
