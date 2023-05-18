@@ -1,4 +1,4 @@
-# data_intensive_architecture
+# Covid data analysis using MapReduce framework
 
 In the project I used Google Health's COVID-19 Open Data Repository to analyze realionship between age and gender of a patient with Covid-19 infection.The objective of the project was to answer below questions:
 1. Is there any relationship between age structure of the population and COVID-19 infections?
